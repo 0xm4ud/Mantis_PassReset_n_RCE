@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+# Exploit Title: Mantis 2.3 Unauth Password Reset + RCE
+# Exploit Author: (m4ud)
+
 import requests
 from optparse import OptionParser
 import binascii
