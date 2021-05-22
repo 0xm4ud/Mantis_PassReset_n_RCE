@@ -72,9 +72,9 @@ class Mantis():
 
 def main():
   parser = OptionParser()
-  parser.add_option("-t", "--target", dest="target", help="[ Requeired ] Target ip address")
+  parser.add_option("-t", "--target", dest="target", help="[ Required ] Target ip address")
   parser.add_option("-P", "--lport", dest="lport", default=str(60321), help="LPORT")
-  parser.add_option("-l", "--lhost", dest="lhost", help="[ Requeired ] LHOST")
+  parser.add_option("-l", "--lhost", dest="lhost", help="[ Required ] LHOST")
   parser.add_option("-p","--rport", dest="rport",default=80, help="RPORT")
 
   (options, args) = parser.parse_args()
