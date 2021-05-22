@@ -6,10 +6,10 @@
     Options:
       -h, --help            show this help message and exit
       -t TARGET, --target=TARGET
-                            [ Requeired ] Target ip address
+                            [ Required ] Target ip address
       -P LPORT, --lport=LPORT
                             LPORT
       -l LHOST, --lhost=LHOST
-                            [ Requeired ] LHOST
+                            [ Required ] LHOST
       -p RPORT, --rport=RPORT
                             RPORT
